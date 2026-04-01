@@ -1,0 +1,856 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Portfolio | Front-End Developer</title>
+<link rel=stylesheet href=style.css>
+</head>
+<body>
+<nav class=navbar id=navbar>
+<div class=nav-container>
+<div class=nav-logo id=navLogo>TiMi</div>
+<ul class=nav-links id=navLinks>
+<li><a href=#home class=nav-link>Home</a></li>
+<li><a href=#about class=nav-link>About</a></li>
+<li><a href=#skills class=nav-link>Skills</a></li>
+<li><a href=#projects class=nav-link>Projects</a></li>
+<li><a href=#experience class=nav-link>Experience</a></li>
+</ul>
+<div class=nav-cta>
+<button class=cta-button id=contactPopupBtn>Contact Me</button>
+</div>
+<div class=hamburger id=hamburger>
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</nav>
+<section id=home class=hero>
+<div class="gradient-orb orb-1"></div>
+<div class="gradient-orb orb-2"></div>
+<div class="gradient-orb orb-3"></div>
+<div class=floating-shapes>
+<div class="shape shape-1"></div>
+<div class="shape shape-2"></div>
+<div class="shape shape-3"></div>
+<div class="shape shape-4"></div>
+</div>
+<div class=hero-content>
+<div class=hero-badge>Welcome to my digital space</div>
+<h1 class=hero-title>
+I'm <span class=gradient-text>TiMi</span>
+</h1>
+<div class=hero-role>
+<span class=role-prefix>I'm a</span>
+<span class=role-text id=roleText></span>
+<span class=role-cursor>|</span>
+</div>
+<p class=hero-description>
+Creating engaging websites with code and creativity. I turn your ideas into beautiful, interactive sites.
+</p>
+<div class=hero-buttons>
+<button class="btn btn-primary" id=viewWorkBtn>
+View My Work
+<svg width=20 height=20 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M5 12H19M19 12L12 5M19 12L12 19" stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round />
+</svg>
+</button>
+<button class="btn btn-secondary" id=contactBtn>
+Let's Connect
+<svg width=20 height=20 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round />
+</svg>
+</button>
+</div>
+<div class=scroll-indicator>
+<span>Scroll to explore</span>
+<div class=scroll-mouse>
+<div class=scroll-wheel></div>
+</div>
+</div>
+</div>
+</section>
+<section id=about class=about-section>
+<div class=about-container>
+<div class=about-content>
+<div class=about-header>
+<span class=section-badge>About Me</span>
+<h2 class=section-title>Who Am I?</h2>
+<div class=section-divider></div>
+</div>
+<div class=about-grid>
+<div class=about-text>
+<p class=about-intro>
+I'm <span class=highlight>TiMi</span>, a passionate Front-End Developer dedicated to crafting beautiful, responsive, and user-friendly web experiences.
+</p>
+<p class=about-description>
+I love great design and clean code. I take creative ideas and turn them into interactive digital experiences that people actually enjoy using. For me, the best websites are the ones where beauty meets usability—they just feel right, and they work seamlessly.
+</p>
+<p class=about-description>
+My journey in web development started with a curiosity for how things work on the internet, and it has evolved into a full-blown passion for creating digital experiences that leave a lasting impression.
+</p>
+<div class=about-stats>
+<div class=stat-card>
+<div class=stat-number id=yearsExp>0</div>
+<div class=stat-label>Years Experience</div>
+</div>
+<div class=stat-card>
+<div class=stat-number id=projectsDone>0</div>
+<div class=stat-label>Projects Completed</div>
+</div>
+<div class=stat-card>
+<div class=stat-number id=happyClients>0</div>
+<div class=stat-label>Happy Clients</div>
+</div>
+</div>
+<div class=about-cta>
+<a href=#contact class=about-btn>Let's Work Together</a>
+<a href=javascript:void(0) class=about-btn-outline>Download CV</a>
+</div>
+</div>
+<div class=about-image>
+<div class=image-wrapper>
+<img src=./images/MYIMAGE1.jpg alt="TiMi - Front-End Developer" class=about-img loading=lazy>
+<div class=image-glow></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=skills class=skills-section>
+<div class=skills-container>
+<div class=skills-header>
+<span class=section-badge>My Expertise</span>
+<h2 class=section-title>Skills & Technologies</h2>
+<div class=section-divider></div>
+<p class=skills-subtitle>
+Technologies and tools I work with to bring ideas to life
+</p>
+</div>
+<div class=skills-grid>
+<div class="skill-category scroll-reveal">
+<div class=category-header>
+<div class=category-icon>
+<svg width=32 height=32 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M6.5 3H17.5C19.433 3 21 4.567 21 6.5V17.5C21 19.433 19.433 21 17.5 21H6.5C4.567 21 3 19.433 3 17.5V6.5C3 4.567 4.567 3 6.5 3Z" stroke=currentColor stroke-width=1.5 />
+<path d="M12 8V16M8 12H16" stroke=currentColor stroke-width=1.5 stroke-linecap=round />
+<circle cx=12 cy=12 r=2 fill=currentColor />
+</svg>
+</div>
+<h3 class=category-title>Frontend Development</h3>
+</div>
+<div class=skills-list>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>HTML5</span>
+<span class=skill-percent>95%</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=95></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>CSS3</span>
+<span class=skill-percent>92%</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=92></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>JavaScript (ES6+)</span>
+<span class=skill-percent>88%</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=88></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>React.js</span>
+<span class=skill-percent>85%</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=85></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>Bootstrap</span>
+<span class=skill-percent>90%</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=90></div>
+</div>
+</div>
+</div>
+</div>
+<div class="skill-category blurred-card scroll-reveal">
+<div class=blur-overlay>
+<div class=coming-soon>Coming Soon</div>
+</div>
+<div class=category-header>
+<div class=category-icon>
+<svg width=32 height=32 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M4 8C4 6.89543 4.89543 6 6 6H18C19.1046 6 20 6.89543 20 8V16C20 17.1046 19.1046 18 18 18H6C4.89543 18 4 17.1046 4 16V8Z" stroke=currentColor stroke-width=1.5 />
+<path d="M8 12H16M12 8V16" stroke=currentColor stroke-width=1.5 stroke-linecap=round />
+</svg>
+</div>
+<h3 class=category-title>Backend Development</h3>
+</div>
+<div class=skills-list>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>Node.js</span>
+<span class=skill-percent>In Progress</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=45></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>Express.js</span>
+<span class=skill-percent>In Progress</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=40></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>MongoDB</span>
+<span class=skill-percent>Learning</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=35></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>RESTful APIs</span>
+<span class=skill-percent>In Progress</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=50></div>
+</div>
+</div>
+</div>
+</div>
+<div class="skill-category scroll-reveal">
+<div class=category-header>
+<div class=category-icon>
+<svg width=32 height=32 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M12 6V12L15 15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke=currentColor stroke-width=1.5 stroke-linecap=round />
+</svg>
+</div>
+<h3 class=category-title>Tools & Design</h3>
+</div>
+<div class=skills-list>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>Git & GitHub</span>
+<span class=skill-percent>90%</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=90></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>Figma</span>
+<span class=skill-percent>85%</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=85></div>
+</div>
+</div>
+<div class=skill-item>
+<div class=skill-info>
+<span class=skill-name>VS Code</span>
+<span class=skill-percent>95%</span>
+</div>
+<div class=skill-bar>
+<div class=skill-progress data-width=95></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tech-stack scroll-reveal">
+<h3 class=tech-stack-title>Tech Stack I Use</h3>
+<div class=tech-icons>
+<div class=tech-icon>
+<img src=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg alt=HTML5>
+<span>HTML5</span>
+</div>
+<div class=tech-icon>
+<img src=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg alt=CSS3>
+<span>CSS3</span>
+</div>
+<div class=tech-icon>
+<img src=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg alt=JavaScript>
+<span>JavaScript</span>
+</div>
+<div class=tech-icon>
+<img src=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg alt=React>
+<span>React</span>
+</div>
+<div class=tech-icon>
+<img src=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg alt=Bootstrap>
+<span>Bootstrap</span>
+</div>
+<div class=tech-icon>
+<img src=https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg alt=GitHub>
+<span>GitHub</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=projects class=projects-section>
+<div class=projects-container>
+<div class=projects-header>
+<span class=section-badge>My Work</span>
+<h2 class=section-title>Featured Projects</h2>
+<div class=section-divider></div>
+<p class=projects-subtitle>
+Here are some of my recent projects showcasing my skills in HTML, CSS, JavaScript, and React
+</p>
+</div>
+<div class=project-filters>
+<button class="filter-btn active" data-filter=all>All Projects</button>
+<button class=filter-btn data-filter=react>Bootstrap</button>
+<button class=filter-btn data-filter=javascript>JavaScript</button>
+<button class=filter-btn data-filter=css>CSS/HTML</button>
+</div>
+<div class=projects-grid>
+<div class="project-card scroll-reveal" data-category=react>
+<div class=project-image>
+<img src=./images/TmS-luxury.JPG alt="E-Commerce Dashboard screenshot" class=project-img>
+<div class=project-overlay>
+<div class=project-links>
+<a href=https://igbelowowa.github.io/Tm-S-Luxury/ class=project-link target=_blank>
+<svg width=18 height=18 viewBox="0 0 24 24" fill=none>
+<path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke=white stroke-width=1.5 />
+<path d="M15 3H21V9M21 3L10 14" stroke=white stroke-width=1.5 />
+</svg>
+Live Demo
+</a>
+</div>
+</div>
+</div>
+<div class=project-info>
+<div class=project-tags>
+<span class=tag>HTML5</span>
+<span class=tag>CSS3</span>
+<span class=tag>JavaScript</span>
+</div>
+<h3 class=project-title>Luxury Fashion Boutique</h3>
+<p class=project-description>
+A sophisticated e-commerce experience for a luxury fashion brand, featuring curated product collections, elegant UI, and seamless shopping functionality built with React and Bootstrap.
+</p>
+</div>
+</div>
+<div class="project-card scroll-reveal" data-category=javascript>
+<div class=project-image>
+<img src="./images/TiMi Photography.JPG" alt="Weather Forecast App screenshot" class=project-img>
+<div class=project-overlay>
+<div class=project-links>
+<a href=https://igbelowowa.github.io/TiMi/ class=project-link target=_blank>
+<svg width=18 height=18 viewBox="0 0 24 24" fill=none>
+<path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke=white stroke-width=1.5 />
+<path d="M15 3H21V9M21 3L10 14" stroke=white stroke-width=1.5 />
+</svg>
+Live Demo
+</a>
+</div>
+</div>
+</div>
+<div class=project-info>
+<div class=project-tags>
+<span class=tag>JavaScript</span>
+<span class=tag>HTML5</span>
+<span class=tag>CSS3</span>
+</div>
+<h3 class=project-title>Mobile Photography Portfolio</h3>
+<p class=project-description>
+A stunning portfolio website showcasing mobile photography, with a minimalist gallery layout, smooth transitions, and responsive design using vanilla JavaScript and CSS.
+</p>
+</div>
+</div>
+<div class="project-card scroll-reveal" data-category=css>
+<div class=project-image>
+<img src=./images/Appco.JPG alt="A demo app" class=project-img>
+<div class=project-overlay>
+<div class=project-links>
+<a href=https://igbelowowa.github.io/appcodemowebsite/ class=project-link target=_blank>
+<svg width=18 height=18 viewBox="0 0 24 24" fill=none>
+<path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke=white stroke-width=1.5 />
+<path d="M15 3H21V9M21 3L10 14" stroke=white stroke-width=1.5 />
+</svg>
+Live Demo
+</a>
+</div>
+</div>
+</div>
+<div class=project-info>
+<div class=project-tags>
+<span class=tag>HTML5</span>
+<span class=tag>CSS3</span>
+<span class=tag>Bootstrap</span>
+</div>
+<h3 class=project-title>Interactive Demo App</h3>
+<p class=project-description>
+A playful web application demonstrating core front-end concepts with engaging UI, smooth interactions, and modern design.
+</p>
+</div>
+</div>
+<div class="project-card scroll-reveal" data-category=react>
+<div class=project-image>
+<img src=./images/mpf.JPG alt="my previous portfolio website" class=project-img>
+<div class=project-overlay>
+<div class=project-links>
+<a href=https://igbelowowa.github.io/myportfolio/ class=project-link target=_blank>
+<svg width=18 height=18 viewBox="0 0 24 24" fill=none>
+<path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke=white stroke-width=1.5 />
+<path d="M15 3H21V9M21 3L10 14" stroke=white stroke-width=1.5 />
+</svg>
+Live Demo
+</a>
+</div>
+</div>
+</div>
+<div class=project-info>
+<div class=project-tags>
+<span class=tag>React</span>
+<span class=tag>Bootstrap</span>
+<span class=tag>JavaScript</span>
+</div>
+<h3 class=project-title>Responsive Portfolio Website</h3>
+<p class=project-description>
+A modern, fully responsive portfolio website with smooth animations, dark mode design, and a clean layout showcasing front-end development skills.
+</p>
+</div>
+</div>
+<div class="project-card scroll-reveal blurred-project" data-category=javascript>
+<div class=project-image>
+<img src=./images/TmS-luxury.JPG alt="Quiz Application screenshot" class=project-img>
+<div class=project-overlay>
+<div class=project-links>
+<a href=# class=project-link target=_blank>
+<svg width=18 height=18 viewBox="0 0 24 24" fill=none>
+<path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke=white stroke-width=1.5 />
+<path d="M15 3H21V9M21 3L10 14" stroke=white stroke-width=1.5 />
+</svg>
+Live Demo
+</a>
+</div>
+</div>
+</div>
+<div class=project-info>
+<div class=project-tags>
+<span class=tag>JavaScript</span>
+<span class=tag>HTML5</span>
+<span class=tag>CSS3</span>
+</div>
+<h3 class=project-title>Quiz Application</h3>
+<p class=project-description>
+An interactive quiz app with timed questions, score tracking, and dynamic content loading using vanilla JavaScript.
+</p>
+</div>
+</div>
+<div class="project-card scroll-reveal blurred-project" data-category=css>
+<div class=project-image>
+<img src=./images/TmS-luxury.JPG alt="Restaurant Landing Page screenshot" class=project-img>
+<div class=project-overlay>
+<div class=project-links>
+<a href=# class=project-link target=_blank>
+<svg width=18 height=18 viewBox="0 0 24 24" fill=none>
+<path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke=white stroke-width=1.5 />
+<path d="M15 3H21V9M21 3L10 14" stroke=white stroke-width=1.5 />
+</svg>
+Live Demo
+</a>
+</div>
+</div>
+</div>
+<div class=project-info>
+<div class=project-tags>
+<span class=tag>HTML5</span>
+<span class=tag>CSS3</span>
+<span class=tag>Bootstrap</span>
+</div>
+<h3 class=project-title>Restaurant Landing Page</h3>
+<p class=project-description>
+A beautiful restaurant website with menu showcase, reservation form, and responsive layout using Bootstrap 5.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=experience class=experience-section>
+<div class=experience-container>
+<div class=experience-header>
+<span class=section-badge>My Journey</span>
+<h2 class=section-title>Experience & Education</h2>
+<div class=section-divider></div>
+<p class=experience-subtitle>
+My professional journey and academic background
+</p>
+</div>
+<div class=timeline>
+<div class="timeline-item scroll-reveal">
+<div class=timeline-dot></div>
+<div class=timeline-content>
+<div class=timeline-date>2019 – 2025</div>
+<h3 class=timeline-title>Bachelor of Science in Chemistry</h3>
+<h4 class=timeline-company>Obafemi Awolowo University (OAU)</h4>
+<p class=timeline-description>
+Graduated with a degree in Chemistry. Developed strong analytical and problem-solving skills that later translated perfectly into coding.
+</p>
+<div class=timeline-tags>
+<span>Chemistry</span>
+<span>Analytical Thinking</span>
+</div>
+</div>
+</div>
+<div class="timeline-item scroll-reveal">
+<div class=timeline-dot></div>
+<div class=timeline-content>
+<div class=timeline-date>2025 – Present</div>
+<h3 class=timeline-title>Front‑End Development (Self‑Taught)</h3>
+<h4 class=timeline-company>Udemy & Online Resources</h4>
+<p class=timeline-description>
+Passionately learned modern front‑end technologies through hands‑on courses and projects. Mastered HTML, CSS, JavaScript, and Bootstrap to build responsive, user‑friendly websites.
+</p>
+<div class=timeline-tags>
+<span>HTML5</span>
+<span>CSS3</span>
+<span>JavaScript</span>
+<span>Bootstrap</span>
+</div>
+</div>
+</div>
+<div class="timeline-item scroll-reveal">
+<div class=timeline-dot></div>
+<div class=timeline-content>
+<div class=timeline-date>2025 – Present</div>
+<h3 class=timeline-title>Freelance Front‑End Developer</h3>
+<h4 class=timeline-company>Self‑Employed / Remote</h4>
+<p class=timeline-description>
+Over one year of experience delivering custom websites and web apps for clients. Focused on clean code, responsive design, and client satisfaction. Successfully completed multiple projects with happy clients.
+</p>
+<div class=timeline-tags>
+<span>Client Projects</span>
+<span>Responsive Design</span>
+<span>Bootstrap</span>
+<span>JavaScript</span>
+</div>
+</div>
+</div>
+<div class="timeline-item scroll-reveal">
+<div class=timeline-dot></div>
+<div class=timeline-content>
+<div class=timeline-date>Ongoing</div>
+<h3 class=timeline-title>Continuous Learning & Growth</h3>
+<h4 class=timeline-company>Always Building</h4>
+<p class=timeline-description>
+Constantly improving skills by working on real‑world projects, exploring new frameworks, and staying updated with modern front‑end trends. Currently expanding into React and advanced JavaScript.
+</p>
+<div class=timeline-tags>
+<span>React (Learning)</span>
+<span>Modern CSS</span>
+<span>Performance</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id=testimonials class=testimonials-section>
+<div class=testimonials-container>
+<div class=testimonials-header>
+<span class=section-badge>Testimonials</span>
+<h2 class=section-title>What People Say</h2>
+<div class=section-divider></div>
+<p class=testimonials-subtitle>
+Hear from clients and colleagues about their experience working with me
+</p>
+<button id=adminModeBtn class=admin-mode-btn>🔒 Admin Mode</button>
+</div>
+<div class=rating-summary>
+<div class=average-rating>
+<span class=avg-score id=avgScore>0.0</span>
+<span class=avg-stars id=avgStars>☆☆☆☆☆</span>
+<span class=avg-count id=totalRatings>(0 ratings)</span>
+</div>
+<div class=rating-bars>
+<div class=rating-bar-item data-star=5>
+<span class=star-label>5 ★</span>
+<div class=bar-container><div class=bar-fill id=bar5 style=width:0%></div></div>
+<span class=bar-percent id=percent5>0%</span>
+</div>
+<div class=rating-bar-item data-star=4>
+<span class=star-label>4 ★</span>
+<div class=bar-container><div class=bar-fill id=bar4 style=width:0%></div></div>
+<span class=bar-percent id=percent4>0%</span>
+</div>
+<div class=rating-bar-item data-star=3>
+<span class=star-label>3 ★</span>
+<div class=bar-container><div class=bar-fill id=bar3 style=width:0%></div></div>
+<span class=bar-percent id=percent3>0%</span>
+</div>
+<div class=rating-bar-item data-star=2>
+<span class=star-label>2 ★</span>
+<div class=bar-container><div class=bar-fill id=bar2 style=width:0%></div></div>
+<span class=bar-percent id=percent2>0%</span>
+</div>
+<div class=rating-bar-item data-star=1>
+<span class=star-label>1 ★</span>
+<div class=bar-container><div class=bar-fill id=bar1 style=width:0%></div></div>
+<span class=bar-percent id=percent1>0%</span>
+</div>
+</div>
+</div>
+<div class=add-testimonial-btn-container>
+<button class=add-testimonial-btn id=openModalBtn>+ Add Your Testimonial</button>
+</div>
+<div class=testimonials-list id=testimonialsList></div>
+<div class=load-more-container id=loadMoreContainer>
+<button class=load-more-btn id=loadMoreBtn>Load More</button>
+</div>
+</div>
+</section>
+<div id=testimonialModal class=modal>
+<div class=modal-content>
+<span class=close-modal>&times;</span>
+<h3>Share Your Experience</h3>
+<form id=testimonialForm>
+<input id=testimonialName placeholder="Your Name" required>
+<input id=testimonialJob placeholder="Job / Role" required>
+<div class=star-rating>
+<span>Your Rating:</span>
+<div class=stars-input>
+<span data-value=1>★</span><span data-value=2>★</span><span data-value=3>★</span><span data-value=4>★</span><span data-value=5>★</span>
+</div>
+<input type=hidden id=testimonialRating value=5>
+</div>
+<textarea id=testimonialComment rows=4 placeholder="Your comment..." required></textarea>
+<button type=submit class=submit-testimonial>Submit</button>
+</form>
+</div>
+</div>
+<section id=contact class=contact-section>
+<div class=contact-container>
+<div class=contact-header>
+<span class=section-badge>Get In Touch</span>
+<h2 class=section-title>Let's Work Together</h2>
+<div class=section-divider></div>
+<p class=contact-subtitle>
+Have a project in mind? I'd love to hear from you.
+</p>
+</div>
+<div class=contact-grid>
+<div class="contact-info scroll-reveal">
+<h3 class=contact-info-title>Connect With Me</h3>
+<p class=contact-info-text>
+Feel free to reach out through any of these channels. I usually respond within 24 hours.
+</p>
+<div class=contact-details>
+<div class=contact-detail>
+<div class=contact-icon>
+<svg width=24 height=24 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M22 6L12 13L2 6M22 6V18C22 18.5304 21.7893 19.0391 21.4142 19.4142C21.0391 19.7893 20.5304 20 20 20H4C3.46957 20 2.96086 19.7893 2.58579 19.4142C2.21071 19.0391 2 18.5304 2 18V6M22 6L12 13L2 6" stroke=currentColor stroke-width=1.5 stroke-linecap=round stroke-linejoin=round />
+</svg>
+</div>
+<div class=contact-detail-content>
+<h4>Email</h4>
+<div class=email-wrapper>
+<p id=contactEmail>holuwatimilehin10@gmail.com</p>
+<button class=copy-email-btn id=copyEmailBtn title="Copy email">
+<svg width=16 height=16 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M8 16H6C5.46957 16 4.96086 15.7893 4.58579 15.4142C4.21071 15.0391 4 14.5304 4 14V6C4 5.46957 4.21071 4.96086 4.58579 4.58579C4.96086 4.21071 5.46957 4 6 4H14C14.5304 4 15.0391 4.21071 15.4142 4.58579C15.7893 4.96086 16 5.46957 16 6V8M10 8H18C19.1046 8 20 8.89543 20 10V18C20 19.1046 19.1046 20 18 20H10C8.89543 20 8 19.1046 8 18V10C8 8.89543 8.89543 8 10 8Z" stroke=currentColor stroke-width=1.5 stroke-linecap=round />
+</svg>
+</button>
+</div>
+</div>
+</div>
+<div class=contact-detail>
+<div class=contact-icon>
+<svg width=24 height=24 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke=currentColor stroke-width=1.5 />
+<circle cx=12 cy=9 r=3 stroke=currentColor stroke-width=1.5 />
+</svg>
+</div>
+<div class=contact-detail-content>
+<h4>Location</h4>
+<p>Ondo State, Nigeria</p>
+</div>
+</div>
+<div class=contact-detail>
+<div class=contact-icon>
+<svg width=24 height=24 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke=currentColor stroke-width=1.5 />
+<path d="M12 6v6l4 2" stroke=currentColor stroke-width=1.5 stroke-linecap=round />
+</svg>
+</div>
+<div class=contact-detail-content>
+<h4>Availability</h4>
+<p>Open for freelance & full-time</p>
+</div>
+</div>
+</div>
+<div class=social-links>
+<a href=https://web.facebook.com/stephen.oluwatimilehin.14 class=social-link target=_blank>
+<svg width=22 height=22 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill=currentColor />
+</svg>
+<span>Facebook</span>
+</a>
+<a href=https://x.com/igbestephen_ class=social-link target=_blank>
+<svg width=22 height=22 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill=currentColor />
+</svg>
+<span>X (Twitter)</span>
+</a>
+<a href=https://www.linkedin.com/in/stephen-oluwatimilehin-115676339/ class=social-link target=_blank>
+<svg width=22 height=22 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" fill=currentColor />
+<rect x=2 y=9 width=4 height=12 fill=currentColor />
+<circle cx=4 cy=4 r=2 fill=currentColor />
+</svg>
+<span>LinkedIn</span>
+</a>
+<a href=https://github.com/Igbelowowa class=social-link target=_blank>
+<svg width=22 height=22 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48c-1.38-.38-2.86-.38-4.24 0C9.27.65 8.09 1 8.09 1A5.07 5.07 0 0 0 8 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 12 18.13V22" stroke=currentColor stroke-width=1.5 stroke-linecap=round />
+</svg>
+<span>GitHub</span>
+</a>
+</div>
+</div>
+<div class="contact-form scroll-reveal">
+<form id=contactForm>
+<div class=form-group>
+<label for=name>Your Name</label>
+<input id=name name=name required>
+</div>
+<div class=form-group>
+<label for=email>Email Address</label>
+<input type=email id=email name=email required>
+</div>
+<div class=form-group>
+<label for=message>Message</label>
+<textarea id=message name=message rows=5 required></textarea>
+</div>
+<button type=submit class=submit-btn>Send Message</button>
+<p class=form-message id=formMessage></p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<footer class=footer>
+<div class=footer-container>
+<div class=footer-content>
+<div class=footer-brand>
+<div class=footer-logo>TiMi</div>
+<p class=footer-tagline>I'm a front-end developer passionate about creating intuitive, high-performance web experiences. With a focus on clean code, modern design, and attention to detail, I help bring ideas to life. Let's collaborate and build something remarkable together.</p>
+</div>
+<div class=footer-links>
+<h4>Quick Links</h4>
+<ul>
+<li><a href=#home>Home</a></li>
+<li><a href=#about>About</a></li>
+<li><a href=#skills>Skills</a></li>
+<li><a href=#projects>Projects</a></li>
+<li><a href=#experience>Experience</a></li>
+<li><a href=#testimonials>Testimonials</a></li>
+<li><a href=#contact>Contact</a></li>
+</ul>
+</div>
+<div class=footer-social>
+<h4>Connect</h4>
+<div class=social-icons>
+<a href=https://web.facebook.com/stephen.oluwatimilehin.14 target=_blank aria-label=Facebook>
+<svg width=20 height=20 viewBox="0 0 24 24" fill=currentColor>
+<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+</svg>
+</a>
+<a href=https://x.com/igbestephen_ target=_blank aria-label=Twitter>
+<svg width=20 height=20 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill=currentColor />
+</svg>
+</a>
+<a href=https://www.linkedin.com/in/stephen-oluwatimilehin-115676339/ target=_blank aria-label=LinkedIn>
+<svg width=20 height=20 viewBox="0 0 24 24" fill=currentColor>
+<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+<rect x=2 y=9 width=4 height=12 />
+<circle cx=4 cy=4 r=2 />
+</svg>
+</a>
+<a href=https://github.com/Igbelowowa target=_blank aria-label=GitHub>
+<svg width=20 height=20 viewBox="0 0 24 24" fill=currentColor>
+<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48c-1.38-.38-2.86-.38-4.24 0C9.27.65 8.09 1 8.09 1A5.07 5.07 0 0 0 8 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 12 18.13V22"/>
+</svg>
+</a>
+</div>
+</div>
+</div>
+<div class=footer-bottom>
+<p>&copy; <span id=currentYear></span> TiMi. All rights reserved.</p>
+<button class=back-to-top id=backToTopBtn aria-label="Back to top">
+<svg width=20 height=20 viewBox="0 0 24 24" fill=none stroke=currentColor stroke-width=2 stroke-linecap=round stroke-linejoin=round>
+<path d="M12 19V5M5 12l7-7 7 7"/>
+</svg>
+Top
+</button>
+</div>
+</div>
+</footer>
+<div class=modal-overlay id=contactModal>
+<div class=modal-container>
+<button class=modal-close id=closeModalBtn>&times;</button>
+<h3 class=modal-title>Connect with me</h3>
+<p class=modal-subtitle>Reach out through any of these platforms</p>
+<div class=modal-icons>
+<a href=https://www.instagram.com/_holuwatimilehin/ class=modal-icon target=_blank aria-label=Instagram>
+<svg width=28 height=28 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M7.75 2h8.5C19.2 2 22 4.8 22 8.25v7.5C22 19.2 19.2 22 15.75 22h-8.5C4.8 22 2 19.2 2 15.75v-7.5C2 4.8 4.8 2 7.75 2z" stroke=currentColor stroke-width=1.5 />
+<path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z" stroke=currentColor stroke-width=1.5 />
+<path d="M17.5 6.5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1z" fill=currentColor />
+</svg>
+<span>Instagram</span>
+</a>
+<a href=https://x.com/igbestephen_ class=modal-icon target=_blank aria-label="X (Twitter)">
+<svg width=28 height=28 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill=currentColor />
+</svg>
+<span>X (Twitter)</span>
+</a>
+<a href=https://web.facebook.com/stephen.oluwatimilehin.14 class=modal-icon target=_blank aria-label=Facebook>
+<svg width=28 height=28 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" fill=currentColor />
+</svg>
+<span>Facebook</span>
+</a>
+<a href=https://github.com/Igbelowowa class=modal-icon target=_blank aria-label=GitHub>
+<svg width=28 height=28 viewBox="0 0 24 24" fill=none xmlns=http://www.w3.org/2000/svg>
+<path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48c-1.38-.38-2.86-.38-4.24 0C9.27.65 8.09 1 8.09 1A5.07 5.07 0 0 0 8 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 12 18.13V22" stroke=currentColor stroke-width=1.5 stroke-linecap=round />
+</svg>
+<span>GitHub</span>
+</a>
+</div>
+</div>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js></script>
+<script src=script.js></script>
+</body>
+</html>
